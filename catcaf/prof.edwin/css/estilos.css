@@ -1,0 +1,123 @@
+*{
+        margin: 0px;
+        padding: 0px;
+}
+
+body{
+background-image: url(https://cdn.pixabay.com/photo/2022/09/23/16/11/stones-7474749_640.jpg);
+}
+img{
+        width: 340px;
+        height: 350px;
+}
+
+.button
+{
+border-radius: 50vh;
+background-color: #b75ef1;
+border: 0vh;
+height: 10vh;
+width: 50vh;
+cursor: pointer;
+}
+
+.bordes{
+border: 3px solid black;
+
+}
+.inicio{
+
+                border-color: black;
+                width: 95vw;
+                height: 450px;
+        
+}
+.navbar{
+        height: 60px;
+        border: 1px solid black;
+        background-color: white;
+
+        color: black;
+}
+.logo{
+height: 35px;
+width: 40px;
+margin-top: auto;
+margin-bottom: 5px;
+margin: 5px ;
+border-radius: 10px;
+}
+.imgeng{
+ text-align: left;
+        margin-top: 30px;
+}
+.imgengs{
+       text-align: right;
+       margin-top: 30px;
+}
+.cajas{
+        border: #b75ef1;
+        text-align: center;
+
+}
+#content{
+        width: 80%;
+        width: 1100;
+        margin: auto;
+background: rgba(128, 128, 128, 0.808);
+
+
+}
+header
+{
+        background: rgba(199, 168, 168, 0.61);
+        height: 100px;
+        width: 100%;
+        margin: 0;
+        margin-top: 2%;
+        text-align: center;
+        line-height: 100px;
+        color: whitesmoke;
+        border-bottom: 2px dashed black;
+}
+nav {
+        background: lightblue;
+        height: 50px;
+        line-height: 30px;
+        border-bottom: 1px solid black;
+}
+nav ul li {
+        float: left;
+        list-style: none;
+        margin: 10px;
+}
+.clearfix{
+        clear: both;
+}
+aside{
+        float: left;
+        width: 80%;
+        min-height: 200px;
+        background: orange;
+}
+footer{
+        background: black;
+        color: whitesmoke;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        left: 50%;
+}
+.loader {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);
+        opacity: .8;
+    }
+    article{
+        
+    }
